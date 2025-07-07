@@ -23,6 +23,5 @@ export async function log(stack, level, pkg, message) {
       body: JSON.stringify(payload)
     });
   } catch (_) {
-    // Do not use console.log — silently ignore
   }
 }
